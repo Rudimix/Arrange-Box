@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrangeBox Control</title>
+    <script src="C:\Users\PC\Desktop\SWOYO\script.js"></script>
+</head>
+<body>
+    <div id="arrange-box-container"></div>
+    <script>
+        // Создание экземпляра контрола ArrangeBox
+        let arrangeBox1 = new ArrangeBox('arrange-box-container1');
+        /* let arrangeBox2 = new ArrangeBox('arrange-box-container2'); */
+        // Пример использования контрола
+        arrangeBox1.addPossibleValue('Value 2');
+        arrangeBox1.addPossibleValue('Value 1');
+        arrangeBox1.addPossibleValue('Value 3');
+        /* arrangeBox1.setSelectedValues(['Value 1', 'Value 3']); */
+        /* arrangeBox2.setSelectedValues(['Value 1', 'Value 3']); */
+
+        /* arrangeBox2.addPossibleValue('Value 1');
+        arrangeBox2.addPossibleValue('Value 2'); */
+
+        arrangeBox1.render();
+        /* arrangeBox2.render(); */
+    </script>
+</body>
+</html>
